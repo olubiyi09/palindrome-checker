@@ -12,9 +12,9 @@ function checkPalindrome(e) {
   }
   let reverseInput = filterInput.split("").reverse().join("");
   if (filterInput != reverseInput) {
-    return (result.innerHTML = `<strong>${inputText.value}</strong> is not a Polindrome`);
+    return (result.innerHTML = `<strong>${inputText.value}</strong> is not a Palindrome`);
   } else {
-    return (result.innerHTML = `<strong>${inputText.value}</strong> is a Polindrome`);
+    return (result.innerHTML = `<strong>${inputText.value}</strong> is a Palindrome`);
   }
 }
 
